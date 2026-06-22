@@ -1,0 +1,37 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: dimgrey;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.branco {
+    width: 250px;
+    height: 155px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.vermelho {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 100%;
+}
+
+.meio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+transform: translate(250px,-100px)
+}
