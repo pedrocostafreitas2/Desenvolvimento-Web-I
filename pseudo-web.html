@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+    /* define a primeira letra com a cor e o tamanho escolhido*/
+    p::first-letter {
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: brown;
+        }
+    /*define a  linha com a cor escolhida*/
+    p::first-line{
+        color:fuchsia;
+    }
+    /*define o pseudoelemento como primeiro */
+    a::after {
+        content: "⚡";
+    }
+    /*define o pseudoelemento como ultimo */
+    a::before{
+        content: "👽"
+    }
+    /* define a cor do link antes de ser visitado */
+    a:link {
+        color:aqua;
+    }
+
+    /* define a cor do link depois de ser visitado */
+    a:visited {
+        color: blue;
+    }
+
+    /* define a cor do link quando o mouse está sobre ele */
+    a:hover {
+        color:greenyellow;
+        padding: 1px;
+        background-color:red;
+    }
+
+    /* define a cor do link quando ele está ativo (ou seja, sendo clicado) */
+    a:active {
+        color: yellow;
+    }
+
+    /* define a cor de fundo do input quando ele está em foco */
+    input:focus {
+        background-color:gray;
+        padding:5px;
+    }
+    </style>
+</head>
+<body>
+    <p>
+        Scientists exploring the depths of Monterey Bay unexpectedly encountered a rare and unique species of dragonfish. This
+        species is the rarest of its species.
+      </p>
+
+<h1>link</h1>
+<p><a href="https://www.rickandmorty.com">link para ver rick and morty</a></p>
+
+<h2>input</h2>
+<p><input type="text" name="nome" placeholder="digite sua idade"></p>
+
+</body>
+</html>
+
+
+
+
