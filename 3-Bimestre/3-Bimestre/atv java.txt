@@ -1,0 +1,17 @@
+//1
+/* numero = prompt("Digite um número:");
+let dobro = numero * 2;
+console.log("O dobro do número é: " + dobro);*/
+//2
+let numero1 = prompt("Digite o primeiro número:");
+let numero2 = prompt("Digite o segundo número:");
+
+let produto = numero1 * numero2;
+let diferenca = numero1 - numero2;
+let soma = Number(numero1) + Number(numero2);
+let quociente = numero1 / numero2;
+
+console.log("Produto: " + produto);
+console.log("Diferença: " + diferenca);
+console.log("Soma: " + soma);
+console.log("Quociente: " + quociente);
