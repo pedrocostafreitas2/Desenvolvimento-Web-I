@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <style>
+            .botao{
+                border-radius: 20px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                user-select: none;
+                font-size: 30px;
+                margin: 10px;
+                width: 200px;
+                height: 100px;
+                background-color: pink;
+            }
+        </style>
+        <script>
+            function mudaTexto() {
+                var botao = document.getElementById('botao');
+                botao.innerHTML = parseInt(botao.innerHTML) + 1;
+            }
+        </script>
+    </head>
+    <body>
+        <div id="botao" class="botao">0</div>
+        <button onclick="mudaTexto()">aumentar</button>
+    </body>
+</html>
+

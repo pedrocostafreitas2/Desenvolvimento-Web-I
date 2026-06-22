@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seleçao e Modificaçao</title>
+    <style>
+        
+        #elementoParaModificar {
+            color: pink;
+            font-size: 30px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Mudando a cor do texto</h1>
+    
+    <p id="elementoParaModificar">Este e o elemento que será modificado</p>
+
+    
+    <script>
+        
+        var elementoSelecionado = document.getElementById('elementoParaModificar');
+
+        
+        if (elementoSelecionado) {
+            elementoSelecionado.style.color = 'magenta';
+            elementoSelecionado.style.fontWeight = 'bold';
+        }
+    </script>
+
+</body>
+</html>

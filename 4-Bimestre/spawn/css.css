@@ -1,0 +1,23 @@
+body{
+
+  background-image: url(aaaaa.jpg);
+  background-size: 110%;
+}#animation {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: absolute;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    transform:translateX(700px);
+    transform: translateY(55%);
+  }
+  
+  /* Define a animação */
+  @keyframes example {
+    from {left: 700%; top: 0px;}
+    to {left: 0px; top: 0px;}
+  }
+  
+  
