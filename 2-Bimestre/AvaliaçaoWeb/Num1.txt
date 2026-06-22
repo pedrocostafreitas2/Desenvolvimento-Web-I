@@ -1,0 +1,1 @@
+O id é usado apenas para identificar um único elemento em html.Ja uma class pode ser usada para identificar mais de um elemento HTML.

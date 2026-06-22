@@ -1,0 +1,1 @@
+sera azul, porque foi especificada diretamente no elemento.  Na tag <h1>, há um atributo style com o valor color:blue, que define a cor do texto dentro dessa tag como azul.  mesmo que haja uma regra css definindo a cor vermelha para todos os elementos  o estilo "anula" essa regra e faz com que o texto seja exibido em azul.
